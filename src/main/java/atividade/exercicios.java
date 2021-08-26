@@ -11,7 +11,7 @@ public class exercicios {
                 3) Com base na cotação do dólar digitado pelo usuário,  e na quantidade de dólares, calcule e exiba o valor em reais.
                 4) Um programa que receba graus farenheit e converta em graus celsius (lembrando que a fórmula para conversão é °C = (°F − 32) ÷ 1, 8
                 5) Um programa que peça ao usuário para digitar um valor da venda, o valor do imposto, e o valor do desconto.
-                O programa deverá calcular o valor final da venda considerando a fórmula: valor final = valor da venda + valor do imposto - valor do desconto
+                O programa deverá calcular o valor final da venda considerando a fórmula: valor final = valor da venda + valor do imposto - valor do desconto.
                 """);
         op();
     }
@@ -124,7 +124,7 @@ public class exercicios {
     public static void voltar(){
         Scanner sc = new Scanner(System.in);
 
-        System.out.print("Deseja retornar ao menu de seleção de exercícios?");
+        System.out.println("Deseja retornar ao menu de seleção de exercícios?");
         String confirma = sc.next();
 
         switch (confirma) {

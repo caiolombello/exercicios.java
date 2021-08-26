@@ -116,7 +116,7 @@ public class exercicios {
         double desconto = sc.nextDouble();
 
         valor = (valor + imposto) - desconto;
-        System.out.print("O valor final da venda fica em R$" + valor);
+        System.out.println("O valor final da venda fica em R$" + valor);
 
         voltar();
     }
@@ -137,6 +137,7 @@ public class exercicios {
             case "n":
                 break;
             default: System.out.println("Digite sim ou não.");
+            voltar();
         }
     }
 }

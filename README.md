@@ -6,4 +6,4 @@
 5. Um programa que peça ao usuário para digitar um valor da venda, o valor do imposto, e o valor do desconto. O programa deverá calcular o valor final da venda considerando a fórmula: valor final = valor da venda + valor do imposto - valor do desconto.
 --------------
 ## Métodos
-Utilizei da criação de métodos para a criação de todo programa, começando do menu, chamando o exercício selecionado e na finalização deste exercício, perguntando se gostaria de voltar ao menu ou finalizar (utilizando o switch case, podendo adicionar várias alternativas de valores, como "Sim", "sim", "s" sendo reconhecido como sim, voltar).
+Utilizei métodos para a criação de todo programa, começando do menu, chamando o exercício selecionado e na finalização deste exercício, perguntando se gostaria de voltar ao menu ou finalizar (utilizando o switch case, podendo adicionar várias alternativas de valores, como "Sim", "sim", "s" sendo reconhecido como sim, voltar).
